@@ -6,3 +6,6 @@ html, body {
     color: #ffffff;
   }
 
+  a:hover {
+    color: #ff7700;
+  }
