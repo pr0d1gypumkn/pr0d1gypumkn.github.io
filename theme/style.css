@@ -9,9 +9,7 @@ html, body {
 a {
     text-decoration: none ;
 }
-#menu>ul{
-    list-style-type: none;
-}
+
 nav {
     background-image: linear-gradient(#114e00, #092700);
     padding: 20px;
@@ -70,12 +68,6 @@ a:visited {
     right:0;
     bottom:0;
 }
-#menu>ul>li>a {
-    color: #ff7700;
-    display: inline;
-    padding: 10px;
-    font-size: 2em;
-}
 
 #menu>ul>li>a:visited {
     color: #ff7700;
@@ -83,4 +75,27 @@ a:visited {
 
 #menu>ul>li>a:hover {
     color: #fcc15d;
+    font-size: 2.1em;
 }
+
+#menu>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#menu>ul>li {
+    float: left;
+}
+
+#menu>ul>li>a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2em;
+    color: #ff7700;
+}
+
+
