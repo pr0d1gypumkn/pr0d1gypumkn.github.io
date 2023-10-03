@@ -2,20 +2,51 @@ html, body {
     margin: 0;
     border: 0;
     font-size: 100%;
-    background-color: #000000;
+    background-color: #ff7700;
     color: #ffffff;
   }
 
+a {
+    text-decoration: none ;
+}
+#menu>ul{
+    list-style-type: none;
+}
+nav {
+    background-image: linear-gradient(#114e00, #092700);
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    border-radius: 0px 0px 25px 25px;
+}
+
+#content {
+    margin: 5vw;
+    margin-top: 10px;}
+
+p {
+    color: #114e00;
+}
+
+a {
+    color: #000;
+}
+
 a:hover {
-    color: #ff7700;
+    color: #ffeb11;
+}
+
+a:visited {
+    color: #e1ff00;
 }
 
 #banner {
     background-color: #114e00;
     padding: 20px;
     margin: 0;
-    border-radius: 10px;
+    text-align: center;
 }
+
 #banner>h1>a {
     color: #ff7700;
     text-align: center;
@@ -23,6 +54,33 @@ a:hover {
     margin: 0;
     padding: 0;
 }
+
 #banner>h1>a:hover {
+    color: #fcc15d;
+}
+
+#contentinfo {
+    background-image: linear-gradient(#114e00, #092700);
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    border-radius: 25px 25px 0px 0px;
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0;
+}
+#menu>ul>li>a {
+    color: #ff7700;
+    display: inline;
+    padding: 10px;
+    font-size: 2em;
+}
+
+#menu>ul>li>a:visited {
+    color: #ff7700;
+}
+
+#menu>ul>li>a:hover {
     color: #fcc15d;
 }
