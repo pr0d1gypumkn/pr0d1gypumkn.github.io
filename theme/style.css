@@ -1,6 +1,8 @@
 html, body {
     margin: 0;
     border: 0;
+    height: 100dvh;
+    width: 100dvw;
     font-size: 100%;
     background-color: #ff7700;
     color: #114e00;
@@ -40,7 +42,11 @@ a:visited {
 
 #banner {
     background-image: url('./Base copy.png')  repeat fixed top left;
-    
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    height: 200px;
     background-color: #114e00;
     padding: 20px;
     margin: 0;
@@ -50,8 +56,9 @@ a:visited {
 
 #menu {
     position:sticky;
-    position: -webkit-sticky;
+    position: --webkit-sticky;
     top:0;
+    margin-top: 240px;
 }
 
 #banner>h1>a {
@@ -73,9 +80,12 @@ a:visited {
     text-align: center;
     border-radius: 25px 25px 0px 0px;
     position:fixed;
-    left:0;
-    right:0;
-    bottom:0;
+    z-index: 1030;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    height: 30px;
+    overflow: scroll;
 }
 
 #menu>ul>li>a:visited {
